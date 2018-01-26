@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: #4D00A0; /* fallback */
+  background: linear-gradient(to bottom right, #4D00A0, #A094CC);
+
+  font-family: 'Reenie Beanie', cursive;
+  color: #FFFFFF;
+
+  padding-top: 15vh;
+}
+
+::selection {
+  background: #fff;
+  color: #4D00A0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.center-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-row {
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center-text {
+  text-align: ;
+}center
+
+.big-font {
+  font-size: 3rem;
+}
+
+.link-img {
+  transition: transform 0.2s ease-in-out;
+  padding: 1em 1em 1em 1em;
+  max-height: 10vh;
+}
+
+.link-img:hover {
+  transform: translate(0px, -20px);
+}
+
+/*#paper-plane {
+  height: 15vh;
+  max-width: 90vw;
+  display: block;
+  margin: auto;
+}*/
