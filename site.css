@@ -55,9 +55,9 @@ body {
   transform: translate(0px, -20px);
 }
 
-/*#paper-plane {
-  height: 15vh;
-  max-width: 90vw;
+#mountain-svg {
+  height: 165vh;
+  max-width: 100vw;
   display: block;
   margin: auto;
-}*/
+}
