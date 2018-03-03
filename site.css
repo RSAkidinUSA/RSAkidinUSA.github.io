@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background: #4D00A0; /* fallback */
-  background: linear-gradient(to bottom right, #4D00A0, #A094CC);
+  background: #8A1E41; /* fallback */
+  background: linear-gradient(to bottom right, #8A1E41, #EE7623);
 
   font-family: 'Reenie Beanie', cursive;
   color: #FFFFFF;
@@ -16,7 +16,7 @@ body {
 
 ::selection {
   background: #fff;
-  color: #4D00A0;
+  color: #8A1E41;
 }
 
 .flex-container {
@@ -56,8 +56,8 @@ body {
 }
 
 #mountain-svg {
-  height: 10vh;
-  max-width: 20vw;
+  height: 40vh;
+  max-width: 66vw;
   display: block;
   margin: auto;
 }
